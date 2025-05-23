@@ -1,4 +1,4 @@
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -94,8 +94,7 @@ msgstr "請先設置用戶名和密碼。"
 msgid "Logging in..."
 msgstr "正在登入..."
 
-msgid ""
-"Search failed due to a temporary issue (HTTP 400). Would you like to retry?"
+msgid "Search failed due to a temporary issue (HTTP 400). Would you like to retry?"
 msgstr "由於臨時問題搜索失敗(HTTP 400)。是否要重試？"
 
 msgid "Retrying search for \""
@@ -119,6 +118,7 @@ msgstr "沒有更多結果。"
 msgid "No download link available for this book."
 msgstr "此書籍無下載鏈接。"
 
+#, lua-format
 msgid "Cannot create downloads directory: %s"
 msgstr "無法創建下載目錄: %s"
 
@@ -170,15 +170,18 @@ msgstr "處理書籍詳情失敗。"
 msgid "Select Z-library Download Directory"
 msgstr "選擇Z-圖書館下載目錄"
 
+#, lua-format
 msgid "Download directory set to: %s"
 msgstr "下載目錄設置為: %s"
 
 msgid "No directory selected."
 msgstr "未選擇目錄。"
 
+#, lua-format
 msgid "%d items selected for %s."
 msgstr "%d個%s選擇的項目。"
 
+#, lua-format
 msgid "Filter cleared for %s."
 msgstr "已清除%s的篩選器。"
 
@@ -209,9 +212,11 @@ msgstr "完整作者"
 msgid "Year"
 msgstr "年份"
 
+#, lua-format
 msgid "Format: %s (tap to download)"
 msgstr "格式: %s (點擊下載)"
 
+#, lua-format
 msgid "Format: %s (Download not available)"
 msgstr "格式: %s (無法下載)"
 
@@ -227,9 +232,11 @@ msgstr "描述(點擊查看)"
 msgid "Book Details"
 msgstr "書籍詳情"
 
+#, lua-format
 msgid "Download \"%s\"?"
 msgstr "下載\"%s\"？"
 
+#, lua-format
 msgid "\"%s\" downloaded successfully. Open it now?"
 msgstr "\"%s\"下載成功。現在打開嗎？"
 
@@ -239,9 +246,7 @@ msgstr "打開書籍"
 msgid "Untitled"
 msgstr "無標題"
 
-msgid ""
-"No recommended books found, please try again. Sometimes this requires a "
-"couple of retries."
+msgid "No recommended books found, please try again. Sometimes this requires a couple of retries."
 msgstr "未找到推薦書籍，請重試。有時需要多次嘗試。"
 
 msgid "Z-library Recommended Books"
@@ -325,6 +330,7 @@ msgstr "檢查更新"
 msgid "Error: Plugin path not found. Cannot check for updates."
 msgstr "錯誤：未找到插件路徑。無法檢查更新。"
 
+#, lua-format
 msgid "Loading more results (Page %s)..."
 msgstr "正在加載更多結果(第%s頁)..."
 
@@ -340,14 +346,10 @@ msgstr "正在安裝更新..."
 msgid "Update installation failed."
 msgstr "更新安裝失敗。"
 
-msgid ""
-"Update installed successfully. Please restart KOReader for changes to take "
-"effect."
+msgid "Update installed successfully. Please restart KOReader for changes to take effect."
 msgstr "更新安裝成功。請重啟KOReader使更改生效。"
 
-msgid ""
-"No internet connection detected. Please connect to the internet and try "
-"again."
+msgid "No internet connection detected. Please connect to the internet and try again."
 msgstr "未檢測到網絡連接。請連接網絡後重試。"
 
 msgid "Update check failed: Could not determine plugin location."
@@ -374,14 +376,15 @@ msgstr "找不到更新文件。"
 msgid "Could not find a download link for the update."
 msgstr "找不到更新的下載鏈接。"
 
+#, lua-format
 msgid "You are already on the latest version (%s) or newer."
 msgstr "您已經是最新版本(%s)或更新版本。"
 
-msgid ""
-"Could not determine your current version, but the latest is %s. If you "
-"recently updated, you might be up-to-date."
+#, lua-format
+msgid "Could not determine your current version, but the latest is %s. If you recently updated, you might be up-to-date."
 msgstr "無法確定您的當前版本，但最新版本是%s。如果您最近更新過，可能已經是最新版本。"
 
+#, lua-format
 msgid "New version available: %s (you have %s). Download and install?"
 msgstr "有新版本可用: %s (您當前版本為%s)。要下載並安裝嗎？"
 

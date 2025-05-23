@@ -118,6 +118,7 @@ msgstr "これ以上の結果は見つかりませんでした。"
 msgid "No download link available for this book."
 msgstr "この書籍にはダウンロードリンクがありません。"
 
+#, lua-format
 msgid "Cannot create downloads directory: %s"
 msgstr "ダウンロードディレクトリを作成できません: %s"
 
@@ -169,15 +170,18 @@ msgstr "書籍の詳細の処理に失敗しました。"
 msgid "Select Z-library Download Directory"
 msgstr "Z-libraryのダウンロードディレクトリを選択"
 
+#, lua-format
 msgid "Download directory set to: %s"
 msgstr "ダウンロードディレクトリが設定されました: %s"
 
 msgid "No directory selected."
 msgstr "ディレクトリが選択されていません。"
 
+#, lua-format
 msgid "%d items selected for %s."
 msgstr "%dに対して%s件が選択されました。"
 
+#, lua-format
 msgid "Filter cleared for %s."
 msgstr "%sのフィルターがクリアされました。"
 
@@ -208,9 +212,11 @@ msgstr "完全な著者名"
 msgid "Year"
 msgstr "出版年"
 
+#, lua-format
 msgid "Format: %s (tap to download)"
 msgstr "フォーマット: %s（タップしてダウンロード）"
 
+#, lua-format
 msgid "Format: %s (Download not available)"
 msgstr "フォーマット: %s（ダウンロード不可）"
 
@@ -226,9 +232,11 @@ msgstr "説明（タップして表示）"
 msgid "Book Details"
 msgstr "書籍の詳細"
 
+#, lua-format
 msgid "Download \"%s\"?"
 msgstr "\"%s\" をダウンロードしますか？"
 
+#, lua-format
 msgid "\"%s\" downloaded successfully. Open it now?"
 msgstr "\"%s\" のダウンロードが完了しました。今すぐ開きますか？"
 
@@ -322,6 +330,7 @@ msgstr "アップデートを確認"
 msgid "Error: Plugin path not found. Cannot check for updates."
 msgstr "エラー：プラグインのパスが見つかりません。アップデートを確認できません。"
 
+#, lua-format
 msgid "Loading more results (Page %s)..."
 msgstr "さらに結果を読み込み中（%sページ）..."
 
@@ -367,12 +376,15 @@ msgstr "アップデートファイルが見つかりませんでした。"
 msgid "Could not find a download link for the update."
 msgstr "アップデートのダウンロードリンクが見つかりませんでした。"
 
+#, lua-format
 msgid "You are already on the latest version (%s) or newer."
 msgstr "すでに最新バージョン（%s）またはそれ以上を使用しています。"
 
+#, lua-format
 msgid "Could not determine your current version, but the latest is %s. If you recently updated, you might be up-to-date."
 msgstr "現在のバージョンが特定できませんが、最新は%sです。最近アップデートした場合は、すでに最新かもしれません。"
 
+#, lua-format
 msgid "New version available: %s (you have %s). Download and install?"
 msgstr "新しいバージョンが利用可能です：%s（現在のバージョン：%s）。ダウンロードしてインストールしますか？"
 

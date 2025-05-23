@@ -118,6 +118,7 @@ msgstr "Nie znaleziono więcej wyników."
 msgid "No download link available for this book."
 msgstr "Brak dostępnego linku do pobrania dla tej książki."
 
+#, lua-format
 msgid "Cannot create downloads directory: %s"
 msgstr "Nie można utworzyć katalogu pobierania: %s"
 
@@ -169,15 +170,18 @@ msgstr "Nie udało się przetworzyć szczegółów książki."
 msgid "Select Z-library Download Directory"
 msgstr "Wybierz katalog pobierania Z-library"
 
+#, lua-format
 msgid "Download directory set to: %s"
 msgstr "Ustawiono katalog pobierania: %s"
 
 msgid "No directory selected."
 msgstr "Nie wybrano katalogu."
 
+#, lua-format
 msgid "%d items selected for %s."
 msgstr "Wybrano %d elementów dla %s."
 
+#, lua-format
 msgid "Filter cleared for %s."
 msgstr "Filtr dla %s został usunięty."
 
@@ -208,9 +212,11 @@ msgstr "Pełne dane autora"
 msgid "Year"
 msgstr "Rok"
 
+#, lua-format
 msgid "Format: %s (tap to download)"
 msgstr "Format: %s (dotknij, aby pobrać)"
 
+#, lua-format
 msgid "Format: %s (Download not available)"
 msgstr "Format: %s (pobieranie niedostępne)"
 
@@ -226,9 +232,11 @@ msgstr "Opis (dotknij, aby zobaczyć)"
 msgid "Book Details"
 msgstr "Szczegóły książki"
 
+#, lua-format
 msgid "Download \"%s\"?"
 msgstr "Pobrać \"%s\"?"
 
+#, lua-format
 msgid "\"%s\" downloaded successfully. Open it now?"
 msgstr "\"%s\" został pomyślnie pobrany. Otworzyć teraz?"
 
@@ -322,6 +330,7 @@ msgstr "Sprawdź aktualizacje"
 msgid "Error: Plugin path not found. Cannot check for updates."
 msgstr "Błąd: Nie znaleziono ścieżki do wtyczki. Nie można sprawdzić aktualizacji."
 
+#, lua-format
 msgid "Loading more results (Page %s)..."
 msgstr "Ładowanie kolejnych wyników (strona %s)..."
 
@@ -367,12 +376,15 @@ msgstr "Nie znaleziono plików aktualizacji."
 msgid "Could not find a download link for the update."
 msgstr "Nie znaleziono linku do pobrania aktualizacji."
 
+#, lua-format
 msgid "You are already on the latest version (%s) or newer."
 msgstr "Używasz już najnowszej wersji (%s) lub nowszej."
 
+#, lua-format
 msgid "Could not determine your current version, but the latest is %s. If you recently updated, you might be up-to-date."
 msgstr "Nie można określić aktualnej wersji, ale najnowsza to %s. Jeśli ostatnio zaktualizowałeś, prawdopodobnie masz aktualną wersję."
 
+#, lua-format
 msgid "New version available: %s (you have %s). Download and install?"
 msgstr "Dostępna nowa wersja: %s (obecnie masz %s). Pobrać i zainstalować?"
 
