@@ -24,6 +24,10 @@ local Zlibrary = WidgetContainer:extend{
     plugin_path = nil,
 }
 
+local function _colon_concat(a, b)
+    return a .. ": " .. b
+end
+
 function Zlibrary:onDispatcherRegisterActions()
     Dispatcher:registerAction("zlibrary_search", { category="none", event="ZlibrarySearch", title=T("Z-library search"), general=true,})
     Dispatcher:registerAction("zlibrary_most_popular", { category="none", event="ZlibraryMostPopular", title=T("Z-library most popular"), general=true,})
@@ -227,7 +231,7 @@ function Zlibrary:_fetchBookList(options)
         on_success = function(api_result)
             Ui.closeMessage(loading_msg)
             if api_result.error then
-                Ui.showErrorMessage(string.format("%s: %s", options.error_prefix_key, tostring(api_result.error)))
+                Ui.showErrorMessage(_colon_concat(options.error_prefix_key, tostring(api_result.error)))
                 return
             end
 
@@ -250,7 +254,7 @@ function Zlibrary:_fetchBookList(options)
 
         on_error_handler = function(err_msg)
             Ui.closeMessage(loading_msg)
-            Ui.showErrorMessage(string.format("%s: %s", options.error_prefix_key, tostring(err_msg)))
+            Ui.showErrorMessage(_colon_concat(options.error_prefix_key, tostring(err_msg)))
         end
 
         AsyncHelper.run(task, on_success, on_error_handler, loading_msg)
@@ -298,7 +302,7 @@ function Zlibrary:onSelectRecommendedBook(book_stub)
     on_success = function(api_result)
         Ui.closeMessage(loading_msg)
         if api_result.error then
-            Ui.showErrorMessage(string.format("%s: %s", T("Failed to fetch book details"), tostring(api_result.error)))
+            Ui.showErrorMessage(_colon_concat(T("Failed to fetch book details"), tostring(api_result.error)))
             return
         end
 
@@ -315,7 +319,7 @@ function Zlibrary:onSelectRecommendedBook(book_stub)
 
     on_error_handler = function(err_msg)
         Ui.closeMessage(loading_msg)
-        Ui.showErrorMessage(string.format("%s: %s", T("Failed to fetch book details"), tostring(err_msg)))
+        Ui.showErrorMessage(_colon_concat(T("Failed to fetch book details"), tostring(err_msg)))
     end
 
     AsyncHelper.run(task, on_success, on_error_handler, loading_msg)
@@ -400,7 +404,7 @@ function Zlibrary:performSearch(query)
 
     on_success = function(api_result)
         if api_result.error then
-            self:handleSearchError(api_result.error, query, user_session, selected_languages, selected_extensions, current_page_to_search, loading_msg, on_success, function(final_err_msg) Ui.showErrorMessage(string.format("%s: %s", T("Search failed"), tostring(final_err_msg))) end)
+            self:handleSearchError(api_result.error, query, user_session, selected_languages, selected_extensions, current_page_to_search, loading_msg, on_success, function(final_err_msg) Ui.showErrorMessage(_colon_concat(T("Search failed"), tostring(final_err_msg))) end)
             return
         end
 
@@ -421,7 +425,7 @@ function Zlibrary:performSearch(query)
     end
 
     on_error_handler = function(err_msg)
-        self:handleSearchError(err_msg, query, user_session, selected_languages, selected_extensions, current_page_to_search, loading_msg, on_success, function(final_err_msg) Ui.showErrorMessage(string.format("%s: %s", T("Search failed"), tostring(final_err_msg))) end)
+        self:handleSearchError(err_msg, query, user_session, selected_languages, selected_extensions, current_page_to_search, loading_msg, on_success, function(final_err_msg) Ui.showErrorMessage(_colon_concat(T("Search failed"), tostring(final_err_msg))) end)
     end
 
     AsyncHelper.run(task, on_success, on_error_handler, loading_msg)
@@ -471,7 +475,7 @@ function Zlibrary:displaySearchResults(initial_book_data_list, query_string)
 
             on_success_load_more = function(api_result_more)
                 if api_result_more.error then
-                    self:handleSearchError(api_result_more.error, self.current_search_query, user_session_more, selected_languages_more, selected_extensions_more, next_api_page_to_fetch, loading_msg_more, on_success_load_more, function(final_err_msg) Ui.showErrorMessage(string.format("%s: %s", T("Failed to load more results"), tostring(final_err_msg))) end)
+                    self:handleSearchError(api_result_more.error, self.current_search_query, user_session_more, selected_languages_more, selected_extensions_more, next_api_page_to_fetch, loading_msg_more, on_success_load_more, function(final_err_msg) Ui.showErrorMessage(_colon_concat(T("Failed to load more results"), tostring(final_err_msg))) end)
                     return
                 end
 
@@ -495,7 +499,7 @@ function Zlibrary:displaySearchResults(initial_book_data_list, query_string)
             end
 
             on_error_load_more = function(err_msg_more)
-                self:handleSearchError(err_msg_more, self.current_search_query, user_session_more, selected_languages_more, selected_extensions_more, next_api_page_to_fetch, loading_msg_more, on_success_load_more, function(final_err_msg) Ui.showErrorMessage(string.format("%s: %s", T("Failed to load more results"), tostring(final_err_msg))) end)
+                self:handleSearchError(err_msg_more, self.current_search_query, user_session_more, selected_languages_more, selected_extensions_more, next_api_page_to_fetch, loading_msg_more, on_success_load_more, function(final_err_msg) Ui.showErrorMessage(_colon_concat(T("Failed to load more results"), tostring(final_err_msg))) end)
             end
 
             AsyncHelper.run(task_load_more, on_success_load_more, on_error_load_more, loading_msg_more)

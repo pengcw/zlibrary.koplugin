@@ -412,11 +412,5 @@ msgstr ""
 msgid "Download failed. Please try again later."
 msgstr ""
 
-msgid "Author: "
-msgstr ""
-
 msgid "Download"
-msgstr ""
-
-msgid "Failed to fetch book details: "
 msgstr ""
