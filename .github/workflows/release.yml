@@ -3,7 +3,7 @@ name: Create Plugin Release
 on:
   push:
     branches:
-      - main
+      - add-i18n-support-dev-test
     paths:
       - '*.lua'
       - 'zlibrary/*.lua'
