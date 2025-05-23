@@ -8,264 +8,264 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: Chinese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Z-library"
-msgstr ""
+msgstr "Z-图书馆"
 
 msgid "[[A plugin to search and download books from Z-library.]]"
-msgstr ""
+msgstr "[[用于从Z-图书馆搜索和下载书籍的插件。]]"
 
 msgid "Z-library search"
-msgstr ""
+msgstr "Z-图书馆搜索"
 
 msgid "Z-library most popular"
-msgstr ""
+msgstr "Z-图书馆最受欢迎"
 
 msgid "Z-library recommended"
-msgstr ""
+msgstr "Z-图书馆推荐"
 
 msgid "Set base URL"
-msgstr ""
+msgstr "设置基础URL"
 
 msgid "Invalid Base URL."
-msgstr ""
+msgstr "无效的基础URL。"
 
 msgid "Set username"
-msgstr ""
+msgstr "设置用户名"
 
 msgid "Verify credentials"
-msgstr ""
+msgstr "验证凭据"
 
 msgid "Login successful!"
-msgstr ""
+msgstr "登录成功！"
 
 msgid "Set download directory"
-msgstr ""
+msgstr "设置下载目录"
 
 msgid "Select search languages"
-msgstr ""
+msgstr "选择搜索语言"
 
 msgid "Select search formats"
-msgstr ""
+msgstr "选择搜索格式"
 
 msgid "Recommended"
-msgstr ""
+msgstr "推荐"
 
 msgid "Most popular"
-msgstr ""
+msgstr "最受欢迎"
 
 msgid "No internet connection detected."
-msgstr ""
+msgstr "未检测到网络连接。"
 
 msgid "Failed to retrieve user session after login."
-msgstr ""
+msgstr "登录后无法获取用户会话。"
 
 msgid "No books found, please try again"
-msgstr ""
+msgstr "未找到书籍，请重试"
 
 msgid "Fetching recommended books..."
-msgstr ""
+msgstr "正在获取推荐书籍..."
 
 msgid "Failed to fetch recommended books"
-msgstr ""
+msgstr "获取推荐书籍失败："
 
 msgid "Fetching most popular books..."
-msgstr ""
+msgstr "正在获取最受欢迎书籍..."
 
 msgid "Failed to fetch most popular books"
-msgstr ""
+msgstr "获取最受欢迎书籍失败："
 
 msgid "Fetching book details..."
-msgstr ""
+msgstr "正在获取书籍详情..."
 
 msgid "Failed to fetch book details"
-msgstr ""
+msgstr "获取书籍详情失败："
 
 msgid "Could not retrieve book details."
-msgstr ""
+msgstr "无法获取书籍详情。"
 
 msgid "Please set both username and password first."
-msgstr ""
+msgstr "请先设置用户名和密码。"
 
 msgid "Logging in..."
-msgstr ""
+msgstr "正在登录..."
 
 msgid ""
 "Search failed due to a temporary issue (HTTP 400). Would you like to retry?"
-msgstr ""
+msgstr "由于临时问题搜索失败(HTTP 400)。是否重试？"
 
 msgid "Retrying search for \""
-msgstr ""
+msgstr "正在重试搜索\""
 
 msgid "Searching for \""
-msgstr ""
+msgstr "正在搜索\""
 
 msgid "Search failed"
-msgstr ""
+msgstr "搜索失败："
 
 msgid "No results found for \""
-msgstr ""
+msgstr "未找到\""
 
 msgid "Failed to load more results"
-msgstr ""
+msgstr "加载更多结果失败："
 
 msgid "No more results found."
-msgstr ""
+msgstr "没有更多结果。"
 
 msgid "No download link available for this book."
-msgstr ""
+msgstr "本书无可用下载链接。"
 
 #, lua-format
 msgid "Cannot create downloads directory: %s"
-msgstr ""
+msgstr "无法创建下载目录：%s"
 
 msgid "Could not open reader UI."
-msgstr ""
+msgstr "无法打开阅读器界面。"
 
 msgid "Download failed: Unknown error"
-msgstr ""
+msgstr "下载失败：未知错误"
 
 msgid "Download limit reached. Please try again later or check your account."
-msgstr ""
+msgstr "达到下载限制。请稍后重试或检查您的账户。"
 
 msgid "Z-library server URL not configured."
-msgstr ""
+msgstr "未配置Z-图书馆服务器URL。"
 
 msgid "Failed to fetch recommended books (no response body)."
-msgstr ""
+msgstr "获取推荐书籍失败(无响应体)。"
 
 msgid "Failed to parse recommended books response."
-msgstr ""
+msgstr "解析推荐书籍响应失败。"
 
 msgid "API returned an error for recommended books."
-msgstr ""
+msgstr "API返回推荐书籍错误。"
 
 msgid "Failed to fetch most popular books (no response body)."
-msgstr ""
+msgstr "获取最受欢迎书籍失败(无响应体)。"
 
 msgid "Failed to parse most popular books response."
-msgstr ""
+msgstr "解析最受欢迎书籍响应失败。"
 
 msgid "API returned an error for most popular books."
-msgstr ""
+msgstr "API返回最受欢迎书籍错误。"
 
 msgid "Z-library server URL not configured or book identifiers missing."
-msgstr ""
+msgstr "未配置Z-图书馆服务器URL或缺少书籍标识符。"
 
 msgid "Failed to fetch book details (no response body)."
-msgstr ""
+msgstr "获取书籍详情失败(无响应体)。"
 
 msgid "Failed to parse book details response."
-msgstr ""
+msgstr "解析书籍详情响应失败。"
 
 msgid "API returned an error for book details."
-msgstr ""
+msgstr "API返回书籍详情错误。"
 
 msgid "Failed to process book details."
-msgstr ""
+msgstr "处理书籍详情失败。"
 
 msgid "Select Z-library Download Directory"
-msgstr ""
+msgstr "选择Z-图书馆下载目录"
 
 #, lua-format
 msgid "Download directory set to: %s"
-msgstr ""
+msgstr "下载目录设置为：%s"
 
 msgid "No directory selected."
-msgstr ""
+msgstr "未选择目录。"
 
 #, lua-format
 msgid "%d items selected for %s."
-msgstr ""
+msgstr "已为%s选择%d个项目。"
 
 #, lua-format
 msgid "Filter cleared for %s."
-msgstr ""
+msgstr "已清除%s的筛选器。"
 
 msgid "Setting saved successfully!"
-msgstr ""
+msgstr "设置保存成功！"
 
 msgid "Setting cleared."
-msgstr ""
+msgstr "设置已清除。"
 
 msgid "Search Z-library"
-msgstr ""
+msgstr "搜索Z-图书馆"
 
 msgid "Please enter a search term."
-msgstr ""
+msgstr "请输入搜索词。"
 
 msgid "Unknown Title"
-msgstr ""
+msgstr "未知标题"
 
 msgid "Full Title"
-msgstr ""
+msgstr "完整标题"
 
 msgid "Author"
-msgstr ""
+msgstr "作者："
 
 msgid "Full Author"
-msgstr ""
+msgstr "完整作者"
 
 msgid "Year"
-msgstr ""
+msgstr "年份："
 
 #, lua-format
 msgid "Format: %s (tap to download)"
-msgstr ""
+msgstr "格式：%s(点击下载)"
 
 #, lua-format
 msgid "Format: %s (Download not available)"
-msgstr ""
+msgstr "格式：%s(不可下载)"
 
 msgid "Download Book (Unknown Format)"
-msgstr ""
+msgstr "下载书籍(未知格式)"
 
 msgid "Publisher"
-msgstr ""
+msgstr "出版商："
 
 msgid "Description (tap to view)"
-msgstr ""
+msgstr "描述(点击查看)"
 
 msgid "Book Details"
-msgstr ""
+msgstr "书籍详情"
 
 #, lua-format
 msgid "Download \"%s\"?"
-msgstr ""
+msgstr "下载\"%s\"?"
 
 #, lua-format
 msgid "\"%s\" downloaded successfully. Open it now?"
-msgstr ""
+msgstr "\"%s\"下载成功。现在打开吗？"
 
 msgid "Open book"
-msgstr ""
+msgstr "打开书籍"
 
 msgid "Untitled"
-msgstr ""
+msgstr "无标题"
 
 msgid ""
 "No recommended books found, please try again. Sometimes this requires a "
 "couple of retries."
-msgstr ""
+msgstr "未找到推荐书籍，请重试。有时需要多次尝试。"
 
 msgid "Z-library Recommended Books"
-msgstr ""
+msgstr "Z-图书馆推荐书籍"
 
 msgid "No most popular books found. The list was empty, please try again."
-msgstr ""
+msgstr "未找到最受欢迎书籍。列表为空，请重试。"
 
 msgid "Z-library Most Popular Books"
-msgstr ""
+msgstr "Z-图书馆最受欢迎书籍"
 
 msgid "Fetch most recommended book from Z-library?"
-msgstr ""
+msgstr "从Z-图书馆获取最推荐书籍？"
 
 msgid "Fetch most popular books from Z-library?"
-msgstr ""
+msgstr "从Z-图书馆获取最受欢迎书籍？"
 
 msgid "Settings"
 msgstr ""
@@ -291,14 +291,16 @@ msgstr ""
 msgid "Set"
 msgstr ""
 
+#, fuzzy
 msgid "Unknown Author"
-msgstr ""
+msgstr "未知标题"
 
 msgid "Rating"
 msgstr ""
 
+#, fuzzy
 msgid "Search Results"
-msgstr ""
+msgstr "搜索失败："
 
 msgid "Title"
 msgstr ""
@@ -315,108 +317,12 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
+#, fuzzy
 msgid "Description"
-msgstr ""
+msgstr "描述(点击查看)"
 
 msgid "Back"
 msgstr ""
 
 msgid "OK"
-msgstr ""
-
-msgid "Set email"
-msgstr ""
-
-msgid "Check for updates"
-msgstr ""
-
-msgid "Error: Plugin path not found. Cannot check for updates."
-msgstr ""
-
-#, lua-format
-msgid "Loading more results (Page %s)..."
-msgstr ""
-
-msgid "Downloading…"
-msgstr ""
-
-msgid "Update failed: Could not determine where to install the plugin."
-msgstr ""
-
-msgid "Installing update..."
-msgstr ""
-
-msgid "Update installation failed."
-msgstr ""
-
-msgid ""
-"Update installed successfully. Please restart KOReader for changes to take "
-"effect."
-msgstr ""
-
-msgid ""
-"No internet connection detected. Please connect to the internet and try "
-"again."
-msgstr ""
-
-msgid "Update check failed: Could not determine plugin location."
-msgstr ""
-
-msgid "Checking for updates..."
-msgstr ""
-
-msgid "Failed to check for updates. Please check your internet connection."
-msgstr ""
-
-msgid "Could not find update information (invalid data format)."
-msgstr ""
-
-msgid "Could not find update version information."
-msgstr ""
-
-msgid "Could not understand the update version format."
-msgstr ""
-
-msgid "Could not find update files."
-msgstr ""
-
-msgid "Could not find a download link for the update."
-msgstr ""
-
-#, lua-format
-msgid "You are already on the latest version (%s) or newer."
-msgstr ""
-
-#, lua-format
-msgid ""
-"Could not determine your current version, but the latest is %s. If you "
-"recently updated, you might be up-to-date."
-msgstr ""
-
-#, lua-format
-msgid "New version available: %s (you have %s). Download and install?"
-msgstr ""
-
-msgid "an older version"
-msgstr ""
-
-msgid "Update available"
-msgstr ""
-
-msgid "Update"
-msgstr ""
-
-msgid "Downloading update..."
-msgstr ""
-
-msgid "Download failed. Please try again later."
-msgstr ""
-
-msgid "Author: "
-msgstr ""
-
-msgid "Download"
-msgstr ""
-
-msgid "Failed to fetch book details: "
 msgstr ""

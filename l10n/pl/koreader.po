@@ -94,11 +94,8 @@ msgstr "Najpierw ustaw nazwę użytkownika i hasło."
 msgid "Logging in..."
 msgstr "Logowanie..."
 
-msgid ""
-"Search failed due to a temporary issue (HTTP 400). Would you like to retry?"
-msgstr ""
-"Wyszukiwanie nie powiodło się z powodu tymczasowego problemu (HTTP 400). Czy "
-"chcesz spróbować ponownie?"
+msgid "Search failed due to a temporary issue (HTTP 400). Would you like to retry?"
+msgstr "Wyszukiwanie nie powiodło się z powodu tymczasowego problemu (HTTP 400). Czy chcesz spróbować ponownie?"
 
 msgid "Retrying search for \""
 msgstr "Ponowne wyszukiwanie dla \""
@@ -132,9 +129,7 @@ msgid "Download failed: Unknown error"
 msgstr "Pobieranie nie powiodło się: Nieznany błąd"
 
 msgid "Download limit reached. Please try again later or check your account."
-msgstr ""
-"Osiągnięto limit pobierania. Spróbuj ponownie później lub sprawdź swoje "
-"konto."
+msgstr "Osiągnięto limit pobierania. Spróbuj ponownie później lub sprawdź swoje konto."
 
 msgid "Z-library server URL not configured."
 msgstr "URL serwera Z-library nie skonfigurowany."
@@ -149,8 +144,7 @@ msgid "API returned an error for recommended books."
 msgstr "API zwróciło błąd dla polecanych książek."
 
 msgid "Failed to fetch most popular books (no response body)."
-msgstr ""
-"Nie udało się pobrać najpopularniejszych książek (brak treści odpowiedzi)."
+msgstr "Nie udało się pobrać najpopularniejszych książek (brak treści odpowiedzi)."
 
 msgid "Failed to parse most popular books response."
 msgstr "Nie udało się przeanalizować odpowiedzi najpopularniejszych książek."
@@ -159,8 +153,7 @@ msgid "API returned an error for most popular books."
 msgstr "API zwróciło błąd dla najpopularniejszych książek."
 
 msgid "Z-library server URL not configured or book identifiers missing."
-msgstr ""
-"URL serwera Z-library nie skonfigurowany lub brakuje identyfikatorów książek."
+msgstr "URL serwera Z-library nie skonfigurowany lub brakuje identyfikatorów książek."
 
 msgid "Failed to fetch book details (no response body)."
 msgstr "Nie udało się pobrać szczegółów książki (brak treści odpowiedzi)."
@@ -253,20 +246,14 @@ msgstr "Otwórz książkę"
 msgid "Untitled"
 msgstr "Bez tytułu"
 
-msgid ""
-"No recommended books found, please try again. Sometimes this requires a "
-"couple of retries."
-msgstr ""
-"Nie znaleziono polecanych książek, spróbuj ponownie. Czasami wymaga to kilku "
-"prób."
+msgid "No recommended books found, please try again. Sometimes this requires a couple of retries."
+msgstr "Nie znaleziono polecanych książek, spróbuj ponownie. Czasami wymaga to kilku prób."
 
 msgid "Z-library Recommended Books"
 msgstr "Polecane książki Z-library"
 
 msgid "No most popular books found. The list was empty, please try again."
-msgstr ""
-"Nie znaleziono najpopularniejszych książek. Lista była pusta, spróbuj "
-"ponownie."
+msgstr "Nie znaleziono najpopularniejszych książek. Lista była pusta, spróbuj ponownie."
 
 msgid "Z-library Most Popular Books"
 msgstr "Najpopularniejsze książki Z-library"
@@ -335,4 +322,95 @@ msgid "Back"
 msgstr ""
 
 msgid "OK"
+msgstr ""
+
+msgid "Set email"
+msgstr ""
+
+msgid "Check for updates"
+msgstr ""
+
+msgid "Error: Plugin path not found. Cannot check for updates."
+msgstr ""
+
+#, lua-format
+msgid "Loading more results (Page %s)..."
+msgstr ""
+
+msgid "Downloading…"
+msgstr ""
+
+msgid "Update failed: Could not determine where to install the plugin."
+msgstr ""
+
+msgid "Installing update..."
+msgstr ""
+
+msgid "Update installation failed."
+msgstr ""
+
+msgid "Update installed successfully. Please restart KOReader for changes to take effect."
+msgstr ""
+
+msgid "No internet connection detected. Please connect to the internet and try again."
+msgstr ""
+
+msgid "Update check failed: Could not determine plugin location."
+msgstr ""
+
+msgid "Checking for updates..."
+msgstr ""
+
+msgid "Failed to check for updates. Please check your internet connection."
+msgstr ""
+
+msgid "Could not find update information (invalid data format)."
+msgstr ""
+
+msgid "Could not find update version information."
+msgstr ""
+
+msgid "Could not understand the update version format."
+msgstr ""
+
+msgid "Could not find update files."
+msgstr ""
+
+msgid "Could not find a download link for the update."
+msgstr ""
+
+#, lua-format
+msgid "You are already on the latest version (%s) or newer."
+msgstr ""
+
+#, lua-format
+msgid "Could not determine your current version, but the latest is %s. If you recently updated, you might be up-to-date."
+msgstr ""
+
+#, lua-format
+msgid "New version available: %s (you have %s). Download and install?"
+msgstr ""
+
+msgid "an older version"
+msgstr ""
+
+msgid "Update available"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Downloading update..."
+msgstr ""
+
+msgid "Download failed. Please try again later."
+msgstr ""
+
+msgid "Author: "
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Failed to fetch book details: "
 msgstr ""
