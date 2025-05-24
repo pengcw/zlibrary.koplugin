@@ -1,4 +1,4 @@
-#: _meta.lua:4 main.lua:22 main.lua:80
+#: _meta.lua:4 main.lua:23 main.lua:81
 msgid "Z-library"
 msgstr ""
 
@@ -6,191 +6,191 @@ msgstr ""
 msgid "[[A plugin to search and download books from Z-library.]]"
 msgstr ""
 
-#: main.lua:32
+#: main.lua:33
 msgid "Z-library search"
 msgstr ""
 
-#: main.lua:33
+#: main.lua:34
 msgid "Z-library most popular"
 msgstr ""
 
-#: main.lua:34
+#: main.lua:35
 msgid "Z-library recommended"
 msgstr ""
 
-#: main.lua:83
+#: main.lua:84
 msgid "Settings"
 msgstr ""
 
-#: main.lua:88 main.lua:92
+#: main.lua:89 main.lua:93
 msgid "Set base URL"
 msgstr ""
 
-#: main.lua:99
+#: main.lua:100
 msgid "Invalid Base URL."
 msgstr ""
 
-#: main.lua:109 main.lua:113
+#: main.lua:110 main.lua:114
 msgid "Set email"
 msgstr ""
 
-#: main.lua:121 main.lua:125
+#: main.lua:122 main.lua:126
 msgid "Set password"
 msgstr ""
 
-#: main.lua:133
+#: main.lua:134
 msgid "Verify credentials"
 msgstr ""
 
-#: main.lua:138
+#: main.lua:139
 msgid "Login successful!"
 msgstr ""
 
-#: main.lua:144
+#: main.lua:145
 msgid "Set download directory"
 msgstr ""
 
-#: main.lua:151 zlibrary/ui.lua:138
+#: main.lua:152 zlibrary/ui.lua:138
 msgid "Select search languages"
 msgstr ""
 
-#: main.lua:158 zlibrary/ui.lua:142
+#: main.lua:159 zlibrary/ui.lua:142
 msgid "Select search formats"
 msgstr ""
 
-#: main.lua:165
+#: main.lua:166
 msgid "Check for updates"
 msgstr ""
 
-#: main.lua:173
+#: main.lua:174
 msgid "Error: Plugin path not found. Cannot check for updates."
 msgstr ""
 
-#: main.lua:180 zlibrary/ui.lua:204
+#: main.lua:181 zlibrary/ui.lua:204
 msgid "Search"
 msgstr ""
 
-#: main.lua:186
+#: main.lua:187
 msgid "Recommended"
 msgstr ""
 
-#: main.lua:192
+#: main.lua:193
 msgid "Most popular"
 msgstr ""
 
-#: main.lua:204 main.lua:288 main.lua:330 main.lua:387 main.lua:521
+#: main.lua:205 main.lua:289 main.lua:331 main.lua:388 main.lua:522
 msgid "No internet connection detected."
 msgstr ""
 
-#: main.lua:220
+#: main.lua:221
 msgid "Failed to retrieve user session after login."
 msgstr ""
 
-#: main.lua:242
+#: main.lua:243
 msgid "No books found, please try again"
 msgstr ""
 
-#: main.lua:267
+#: main.lua:268
 msgid "Fetching recommended books..."
 msgstr ""
 
-#: main.lua:268 zlibrary/api.lua:351
+#: main.lua:269 zlibrary/api.lua:351
 msgid "Failed to fetch recommended books"
 msgstr ""
 
-#: main.lua:278
+#: main.lua:279
 msgid "Fetching most popular books..."
 msgstr ""
 
-#: main.lua:279 zlibrary/api.lua:406
+#: main.lua:280 zlibrary/api.lua:406
 msgid "Failed to fetch most popular books"
 msgstr ""
 
-#: main.lua:292
+#: main.lua:293
 msgid "Fetching book details..."
 msgstr ""
 
-#: main.lua:305 main.lua:322 zlibrary/api.lua:461
+#: main.lua:306 main.lua:323 zlibrary/api.lua:461
 msgid "Failed to fetch book details"
 msgstr ""
 
-#: main.lua:310
+#: main.lua:311
 msgid "Could not retrieve book details."
 msgstr ""
 
-#: main.lua:338
+#: main.lua:339
 msgid "Please set both username and password first."
 msgstr ""
 
-#: main.lua:342
+#: main.lua:343
 msgid "Logging in..."
 msgstr ""
 
-#: main.lua:360
+#: main.lua:361
 msgid ""
 "Search failed due to a temporary issue (HTTP 400). Would you like to retry?"
 msgstr ""
 
-#: main.lua:361
+#: main.lua:362
 msgid "Retry"
 msgstr ""
 
-#: main.lua:362 zlibrary/ota.lua:311 zlibrary/ui.lua:154 zlibrary/ui.lua:199
+#: main.lua:363 zlibrary/ota.lua:311 zlibrary/ui.lua:154 zlibrary/ui.lua:199
 #: zlibrary/ui.lua:391 zlibrary/ui.lua:474 zlibrary/ui.lua:483
 msgid "Cancel"
 msgstr ""
 
-#: main.lua:365
+#: main.lua:366
 msgid "Retrying search for \""
 msgstr ""
 
-#: main.lua:391
+#: main.lua:392
 msgid "Searching for \""
 msgstr ""
 
-#: main.lua:408 main.lua:429
+#: main.lua:409 main.lua:430
 msgid "Search failed"
 msgstr ""
 
-#: main.lua:413
+#: main.lua:414
 msgid "No results found for \""
 msgstr ""
 
-#: main.lua:464
+#: main.lua:465
 #, lua-format
 msgid "Loading more results (Page %s)..."
 msgstr ""
 
-#: main.lua:479 main.lua:503
+#: main.lua:480 main.lua:504
 msgid "Failed to load more results"
 msgstr ""
 
-#: main.lua:497
+#: main.lua:498
 msgid "No more results found."
 msgstr ""
 
-#: main.lua:526
+#: main.lua:527
 msgid "No download link available for this book."
 msgstr ""
 
-#: main.lua:550
+#: main.lua:551
 #, lua-format
 msgid "Cannot create downloads directory: %s"
 msgstr ""
 
-#: main.lua:563
+#: main.lua:564
 msgid "Downloading"
 msgstr ""
 
-#: main.lua:575
+#: main.lua:576
 msgid "Could not open reader UI."
 msgstr ""
 
-#: main.lua:580
+#: main.lua:581
 msgid "Download failed: Unknown error"
 msgstr ""
 
-#: main.lua:582 main.lua:594
+#: main.lua:583 main.lua:595
 msgid "Download limit reached. Please try again later or check your account."
 msgstr ""
 
