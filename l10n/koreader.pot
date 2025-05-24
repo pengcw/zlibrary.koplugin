@@ -78,7 +78,7 @@ msgstr ""
 msgid "Most popular"
 msgstr ""
 
-#: main.lua:204 main.lua:288 main.lua:330 main.lua:387 main.lua:520
+#: main.lua:204 main.lua:288 main.lua:330 main.lua:387 main.lua:521
 msgid "No internet connection detected."
 msgstr ""
 
@@ -148,49 +148,49 @@ msgstr ""
 msgid "Searching for \""
 msgstr ""
 
-#: main.lua:407 main.lua:428
+#: main.lua:408 main.lua:429
 msgid "Search failed"
 msgstr ""
 
-#: main.lua:412
+#: main.lua:413
 msgid "No results found for \""
 msgstr ""
 
-#: main.lua:463
+#: main.lua:464
 #, lua-format
 msgid "Loading more results (Page %s)..."
 msgstr ""
 
-#: main.lua:478 main.lua:502
+#: main.lua:479 main.lua:503
 msgid "Failed to load more results"
 msgstr ""
 
-#: main.lua:496
+#: main.lua:497
 msgid "No more results found."
 msgstr ""
 
-#: main.lua:525
+#: main.lua:526
 msgid "No download link available for this book."
 msgstr ""
 
-#: main.lua:549
+#: main.lua:550
 #, lua-format
 msgid "Cannot create downloads directory: %s"
 msgstr ""
 
-#: main.lua:562
+#: main.lua:563
 msgid "Downloading"
 msgstr ""
 
-#: main.lua:574
+#: main.lua:575
 msgid "Could not open reader UI."
 msgstr ""
 
-#: main.lua:579
+#: main.lua:580
 msgid "Download failed: Unknown error"
 msgstr ""
 
-#: main.lua:581 main.lua:593
+#: main.lua:582 main.lua:594
 msgid "Download limit reached. Please try again later or check your account."
 msgstr ""
 
