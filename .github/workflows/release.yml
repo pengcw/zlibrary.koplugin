@@ -91,7 +91,6 @@ jobs:
             --language=Lua \
             --from-code=UTF-8 \
             --keyword=T \
-            --no-location \
             --omit-header \
             --join-existing \
             --output="$POT_FILE"
@@ -103,7 +102,7 @@ jobs:
           if [ -f "$POT_FILE" ]; then
             find l10n -type f -name "*.po" -print0 | while IFS= read -r -d $'\0' po_file; do
                 echo "Updating: $po_file"
-                msgmerge --no-fuzzy-matching --no-wrap --backup=off --update "$po_file" "$POT_FILE"
+                msgmerge --no-fuzzy-matching --no-location --no-wrap --backup=off --update "$po_file" "$POT_FILE"
                 if [ $? -ne 0 ]; then
                     echo "Failed to update $po_file!"
                 fi
