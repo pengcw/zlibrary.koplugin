@@ -151,11 +151,11 @@ jobs:
           fi
 
           # Add README*.md *.md if it exists and is a file
-          find . -type f -iname '*.md' -print0 | while IFS= read -r -d $'\0' md_file; do
-          if [ -f "$md_file" ]; then
+          while IFS= read -r -d $'\0' md_file; do
+            if [ -f "$md_file" ]; then
               FILE_LINES="${FILE_LINES}${md_file}"$'\n'
             fi
-          done
+          done < <(find . -maxdepth 2 -type f -name '*.md' -print0)
           
           # Add LICENSE if it exists and is a file
           if [ -f "LICENSE" ]; then
