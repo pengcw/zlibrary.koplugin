@@ -399,8 +399,9 @@ function Zlibrary:performSearch(query)
         return Api.search(query, user_session.user_id, user_session.user_key, selected_languages, selected_extensions, current_page_to_search)
     end
 
-    local on_success
     local on_error_handler
+    local on_success
+    
 
     on_success = function(api_result)
         if api_result.error then
