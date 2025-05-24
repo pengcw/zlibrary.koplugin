@@ -92,7 +92,6 @@ jobs:
             --from-code=UTF-8 \
             --keyword=T \
             --omit-header \
-            --join-existing \
             --output="$POT_FILE"
           echo "POT file successfully updated at $POT_FILE"
       
